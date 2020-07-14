@@ -166,8 +166,8 @@ def process(tsv_location, chunk_size, output_dir, combined_file_path, num_thread
 
 
 @group.command()
-@click.option("--clean_list_128_path", type=click.File('r'), help="Path of clean_list_128Vec_WT051_P010.txt", required=True)
-@click.option("--relabel_list_128_path", type=click.File('r'), help="Path of relabel_list_128Vec_T058", required=True)
+@click.option("--clean_list_128_path", type=click.Path(dir_okay=False), help="Path of clean_list_128Vec_WT051_P010.txt", required=True)
+@click.option("--relabel_list_128_path", type=click.Path(dir_okay=False), help="Path of relabel_list_128Vec_T058", required=True)
 @click.option("--output_path", type=click.Path(dir_okay=False), help="Path of output file", required=True)
 def combine(clean_list_128_path, relabel_list_128_path, output_path):
     """Combine clean_list_128Vec_WT051_P010.txt and relabel_list_128Vec_T058.txt together.
