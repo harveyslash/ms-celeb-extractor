@@ -19,8 +19,11 @@ The [MS Celeb Dataset](https://github.com/EB-Dodo/C-MS-Celeb) is a database of f
 3. Storing as the original jpeg files give a reduction in size from 95 GB to 57 GB 
 
 
+## Installing
+`pip install -r requirements.txt`
 
-## Usage and interface coming soon! 
+
+## Usage 
 
 ```Usage: extractor.py [OPTIONS] COMMAND [ARGS]...
 
