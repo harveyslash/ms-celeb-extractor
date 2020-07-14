@@ -89,6 +89,8 @@ def decode_and_save(dir_name, file_name, wrong_face_id, base64Image):
 
 
 def do():
+    """
+    """
 
     with ThreadPoolExecutor(max_workers=16) as executor:
         with tqdm() as pbar:
