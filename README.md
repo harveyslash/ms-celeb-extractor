@@ -25,7 +25,8 @@ The [MS Celeb Dataset](https://github.com/EB-Dodo/C-MS-Celeb) is a database of f
 
 ## Usage 
 
-```Usage: extractor.py [OPTIONS] COMMAND [ARGS]...
+```
+Usage: extractor.py [OPTIONS] COMMAND [ARGS]...
 
   Utility to help extract MS Celeb data into manageable fils.
 
@@ -43,7 +44,8 @@ First use the combine command to combine the two text files provided in the data
 
 
 
-```Usage: extractor.py combine [OPTIONS]
+```
+Usage: extractor.py combine [OPTIONS]
 
   Combine clean_list_128Vec_WT051_P010.txt and relabel_list_128Vec_T058.txt
   together.
