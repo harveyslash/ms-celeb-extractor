@@ -9,6 +9,7 @@ The [MS Celeb Dataset](https://github.com/EB-Dodo/C-MS-Celeb) is a database of f
  It contains a tsv file with the images encoded as base64 strings. 
  
  This extraction tool helps read through the tsv and place images of the same person in their respective folders. 
+ As it reads through the tsv file, it deletes the already read entries, meaning it requires no extra disk space to save the processed files.
  
  The reasoning for this is: 
  
