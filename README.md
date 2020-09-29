@@ -39,7 +39,10 @@ Commands:
   ```
 
 
-First use the combine command to combine the two text files provided in the dataset.
+First use the combine command to combine the two text files provided in the dataset. Details of 
+why to combine will be clear on referring to Section "How to use C-MS-Celeb" at 
+https://github.com/EB-Dodo/C-MS-Celeb. Further, the 2 txt files are not found in the torrent but in
+https://github.com/EB-Dodo/C-MS-Celeb/blob/master/clean_list.7z
 
 
 
